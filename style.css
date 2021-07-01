@@ -1,0 +1,63 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    display: inline;
+   width: 100%;
+   height: 40px;
+    position: fixed; 
+    overflow: auto; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 8px 16px;
+
+    text-decoration: none;
+  }
+  li{
+    float: left;
+    display: inline;
+  }
+ 
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+    border: solid pink;
+    letter-spacing: 6px;
+  }
+  .peragrap{
+    background-color: rgb(30, 235, 108);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+   color: rgb(255, 255, 255);
+   font-size: 24px;
+   font-style: bold;
+   
+   
+}
+.peragrap:hover{
+    background-color: darkgoldenrod;
+    border: solid red;
+}
+img{
+border: solid rgb(255, 0, 0) 10px;
+
+}
+img:hover{
+    border: solid crimson 40px;
+}
